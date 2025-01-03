@@ -1,0 +1,27 @@
+This time around I have a fairly easy project to build and print.  I needed a way to take two SDR dongles mobile, but heavy and unwieldy.  I was always a bit nervous about how much pressure the cables put on USB ports, especially on expensive laptops. 
+
+My solution is pretty straightforward, two RTL-SDR USB dongles and a USB hub in a 3D printed enclosure.  It doesn't have to be carbon fiber filament, but I think it looks best and prints well for me.  The design is a top, bottom, and two ends.  The two ends are pretty easy to customize too. Eagle-eyed readers will notice the picture above has a little flex on that USB cable too- but this time it's going into a $30 USB hub instead of a much more expensive laptop.  Many USB ports have a bit of play to them as well, unless you go for expensive connectors.  This way you can give some abuse to this and just swap out the hub if needed.
+The other big advantage to this case is that I have some venting, but more importantly space between the devices and the outside.  These SDR devices in general can get quite hot, this way I am a little less worried about the heat damaging something they sit next to.
+The whole thing is held together with a few metric flat head screws on the flat sides to keep it all flush, then with some socket head screws on the end.  The design is available for paid subscribers, both at the STL and CAD file levels.  As always, these subscriptions support these projects, so thank you to all of you for supporting my work.
+Finally, the ends have plenty of space for hand-tightening SMA connectors, as well as screwing in some BNC adapters, which work well with the ZBM2 antennas (which are awesome).
+Design Files
+**Parts List**
+* RTL SDR USB Adapter (v4 has been tested, but other revisions of the same brand may be OK) - [Amazon](https://amzn.to/4bAmMHg)
+* Startech USB Hub - [Amazon](https://amzn.to/3UVTlZ5)
+* USB B to USB C Cable - [Amazon](https://amzn.to/3KmTZda)
+* Velcro Ties - [Amazon](https://amzn.to/3wQmayd)
+
+**Update - I no longer recommend these hex drive flathead screws for the chassis- they are easily stripped.**
+* M2.5x12mm Flathead Hex Drive Screws - [McMaster Carr](https://www.mcmaster.com/91294A020/)
+
+**Instead I recommend these philips head variants for the chassis:** 
+
+* M2.5x12mm Flathead Philips Head Screws - [McMaster Carr](https://www.mcmaster.com/92010A022/)
+
+**The endcap screws should be fine as hex drive, with the M4 size being pretty reliable from my experience.**
+
+* M4x10mm Socket Head Screws for the Antenna End Cap - [McMaster Carr](https://www.mcmaster.com/91290A144/)
+* M4x20mm Screws for the USB End Cap (Flathead) - [McMaster Carr](https://www.mcmaster.com/91294A196/)
+* M4x20mm Screws for the USB End Cap (Socket Head) - [McMaster Carr](https://www.mcmaster.com/91290A168/)
+
+
